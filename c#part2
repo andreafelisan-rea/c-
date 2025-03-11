@@ -1,0 +1,30 @@
+using System;
+namespace kyle{
+    class program{
+    static int Main(string[] args){
+        // TYPE CASTING
+        // CONVERSION OF DATA TYPES 
+        string text = "";
+        int number = 0;
+        double number1 = 0;
+        bool boolean = true;
+        
+       text = Console.ReadLine();
+       
+       if(text == "9"){
+           number = Convert.ToInt32(text);//"g" -> 9
+           number += number;// number = number + number
+           Console.WriteLine(number);
+       }
+       else if(text == "9.9"){
+          number1 = Convert.ToDouble(text);
+          number1 /=3;
+          Console.WriteLine(number1);
+       }
+       else{
+           Console.WriteLine(Convert.ToString(boolean));
+       }
+        return 0;
+        }
+    }
+}
