@@ -1,0 +1,27 @@
+using System;
+
+namespace HellowWorld{
+    class program{
+        static void Main(string[] angs){
+            string test = "";
+            Console.WriteLine("HELLOW WORLD !");
+            // input a value of variable test
+            test = Console.ReadLine();
+            // output the value of variable test
+            Console.ReadLine();
+            // variable types
+            /*
+            int = stores integer without decimals 
+            double = stores floating point numbers with decimals
+            char = stores characters
+            string = stores text
+            bool = stores two states true or false 
+            */
+            // use const if you don't want others to overwrite  a date from a variable
+            const int mynumber = 15;
+            // mynumber = 15;
+            const bool boolean = true;
+            
+        }
+    }
+}
